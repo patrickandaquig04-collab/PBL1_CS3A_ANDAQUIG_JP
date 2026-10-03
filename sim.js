@@ -1,13 +1,3 @@
-/*
-1. Constructor - Classes (Block, Blockchain)
-2. functions (Blockchain) => create of GB 
-                            getLatestBLock
-                            addBlock
-                            isValidChain
-3. constants
-4. HTML elements
-*/
-
 class Block{
     constructor(index, timestamp, data, previousHash = ''){
         this.index = index;
